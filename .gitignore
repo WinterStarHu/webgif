@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# 前端构建产物（由 npm run build 生成，不入库）
+backend/static/
+
+# 自签证书私钥（敏感，绝不入库！）
+backend/cert.pem
+backend/key.pem
+
+# 日志
+*.log
+/tmp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
